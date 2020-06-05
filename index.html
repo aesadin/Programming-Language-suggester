@@ -12,7 +12,6 @@
       <h1>Getting Into Programming</h1>
 
       <h3>Which Programming Language Is <em>Right</em> For You?</h3>
-
       <p>Choosing a programming language can be overwhelming and confusing. 
         We would like to help you get started by offering you some information 
         about some of the most popular languages out there. By answering these
@@ -22,11 +21,8 @@
       </p>
 
       <h4>Answer these questions to get matched</h4>
-      
-      <div class="grid-container">
-        <form id="formOne"></form>
-          <div class="grid-item">
-            <h3>Which of these companies interests you the most?</h3>
+      <form id="formOne">
+          <h3>Which of these companies interests you the most?</h3>
             <div class="radio">
               <label>
                 <input type="radio" name="company" value="Python">
@@ -45,102 +41,90 @@
                 Microsoft, Citi, Boeing
               </label>
             </div>
-          </div>
-        </div>
-
-        <div class="grid-item">
+          
           <h3>Have you ever worked in customer service?</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="service" value="Python">
-              I have done some customer serive work, but not much
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="service" value="Javascript">
-              I have a lot of experience working in customer service
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="service" value="C#">
-              I have no customer service experience 
-            </label>
-          </div>
-        </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="service" value="Python">
+                I have done some customer serive work, but not much
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="service" value="Javascript">
+                I have a lot of experience working in customer service
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="service" value="C#">
+                I have no customer service experience 
+              </label>
+            </div>
 
-        <div class="grid-item">
           <h3>How new are you to programming?</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="newTo" value="Python">
-              I am an absolute beginner
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="newTo" value="Javascript">
-              I have some understanding of programming, but not much
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="newTo" value="C#">
-              I feel comfortable with programming
-            </label>
-          </div>
-        </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="newTo" value="Python">
+                I am an absolute beginner
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="newTo" value="Javascript">
+                I have some understanding of programming, but not much
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="newTo" value="C#">
+                I feel comfortable with programming
+              </label>
+            </div>
 
-        <div class="grid-item">
           <h3>Which of these career paths most appeal to you?</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="appeal" value="Python">
-              I would like to get into product management
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="appeal" value="Javascript">
-              I would like to get into web design and user experience
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="appeal" value="C#">
-              I would like to get into web and application development 
-            </label>
-          </div>
-        </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="appeal" value="Python">
+                I would like to get into product management
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="appeal" value="Javascript">
+                I would like to get into web design and user experience
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="appeal" value="C#">
+                I would like to get into web and application development 
+              </label>
+            </div>
 
-        <div class="grid-item">
           <h3>How do you spend your time when using a computer?</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="time" value="Python">
-              I spend my time on social media 
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="time" value="Javascript">
-              I spend my time online shopping
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="time" value="C#">
-              I spend my time writing 
-            </label>
-          </div>
-        </div> 
-        </form>
-      </div>
-      <span><button type="submit" class="btn">Find Match</button></span>
-
-    <h3 id="result"><em>Your Language Match is </em><span class="match"></span></h3>
-
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="Python">
+                I spend my time on social media 
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="Javascript">
+                I spend my time online shopping
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="C#">
+                I spend my time writing 
+              </label>
+            </div>
+          <button type="submit" class="btn">Find Match</button>
+      </form>
+      <h4 id="result"><em>Your Language Match is:</em><span class="match"></span></h4>
+      
       <div id="resultPython">
         <h4>Your Language Match is: Python</h4>
         <p>Python is an extremely easy language to learn and to read. Beginners are able to 
