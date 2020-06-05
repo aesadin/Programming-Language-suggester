@@ -20,8 +20,12 @@ $(document).ready(function() {
       $(".match").text("Javascript");
       $("#result").show();
     }
+
+      if (company === "Python") {
+        $("#pythonResult").show();
+      }
   });
 });
 
 
-    $("#story").show();
+   

@@ -1,3 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: aliceblue; 
+  margin: 10px;
+}
+
+.grid-container {
+  display: inline-grid;
+}
+
+.btn {
+  align: center;
+}
 
 #resultPython {
   display: none;
@@ -10,3 +26,9 @@
 #resultC {
   display: none;
 }
+
+#result {
+  display: none;
+}
+
+      
